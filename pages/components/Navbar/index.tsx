@@ -18,9 +18,9 @@ const Navbar = () => {
     <nav className="bg-gray-800 fixed w-full z-10">
       <div className="mx-auto max-w-2xl px-2">
         <div className="h-16 flex justify-between w-full items-center">
-          <h1 className="text-white font-bold">Komoditas</h1>
+          <h1 className="text-white font-bold">Komoditas Kini</h1>
 
-          <h1 className="text-white font-light text-sm hover:cursor-pointer" role="button" onClick={toggle}>Ganti Provinsi</h1>
+          <p className="text-white font-light font-light bg-gray-600 p-2 hover:bg-gray-700 hover:cursor-pointer text-sm hover:cursor-pointer" role="button" onClick={toggle}>Ganti Provinsi</p>
         </div>
       </div>
 
