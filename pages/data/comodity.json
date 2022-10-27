@@ -1,0 +1,2065 @@
+{
+  "national_commodity_price": {
+    "Daging Ayam": [
+      {
+        "value": "24500",
+        "name": "Sulawesi Barat",
+        "display": "Rp24.500",
+        "id": "30"
+      },
+      {
+        "value": "30000",
+        "name": "Kalimantan Utara",
+        "display": "Rp30.000",
+        "id": "24"
+      },
+      {
+        "value": "30000",
+        "name": "Sumatera Utara",
+        "display": "Rp30.000",
+        "id": "2"
+      },
+      {
+        "value": "37200",
+        "name": "Kepulauan Riau",
+        "display": "Rp37.200",
+        "id": "5"
+      },
+      {
+        "value": "37250",
+        "name": "Sulawesi Utara",
+        "display": "Rp37.250",
+        "id": "29"
+      },
+      {
+        "value": "37400",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp37.400",
+        "id": "18"
+      },
+      {
+        "value": "37500",
+        "name": "Papua",
+        "display": "Rp37.500",
+        "id": "33"
+      },
+      {
+        "value": "37900",
+        "name": "Sumatera Selatan",
+        "display": "Rp37.900",
+        "id": "8"
+      },
+      {
+        "value": "39200",
+        "name": "DI Yogyakarta",
+        "display": "Rp39.200",
+        "id": "15"
+      },
+      {
+        "value": "39200",
+        "name": "Lampung",
+        "display": "Rp39.200",
+        "id": "10"
+      },
+      {
+        "value": "39400",
+        "name": "Riau",
+        "display": "Rp39.400",
+        "id": "4"
+      },
+      {
+        "value": "39950",
+        "name": "Maluku Utara",
+        "display": "Rp39.950",
+        "id": "32"
+      },
+      {
+        "value": "40300",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp40.300",
+        "id": "9"
+      },
+      {
+        "value": "40900",
+        "name": "Banten",
+        "display": "Rp40.900",
+        "id": "11"
+      },
+      {
+        "value": "40950",
+        "name": "Jawa Barat",
+        "display": "Rp40.950",
+        "id": "12"
+      },
+      {
+        "value": "41500",
+        "name": "Jawa Tengah",
+        "display": "Rp41.500",
+        "id": "14"
+      },
+      {
+        "value": "42200",
+        "name": "Kalimantan Selatan",
+        "display": "Rp42.200",
+        "id": "21"
+      },
+      {
+        "value": "42850",
+        "name": "Papua Barat",
+        "display": "Rp42.850",
+        "id": "34"
+      },
+      {
+        "value": "43000",
+        "name": "Kalimantan Timur",
+        "display": "Rp43.000",
+        "id": "23"
+      },
+      {
+        "value": "43150",
+        "name": "Jawa Timur",
+        "display": "Rp43.150",
+        "id": "16"
+      },
+      {
+        "value": "43950",
+        "name": "Kalimantan Barat",
+        "display": "Rp43.950",
+        "id": "20"
+      },
+      {
+        "value": "44750",
+        "name": "Sumatera Barat",
+        "display": "Rp44.750",
+        "id": "3"
+      },
+      {
+        "value": "44950",
+        "name": "Bengkulu",
+        "display": "Rp44.950",
+        "id": "7"
+      },
+      {
+        "value": "45450",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp45.450",
+        "id": "27"
+      },
+      {
+        "value": "45650",
+        "name": "Kalimantan Tengah",
+        "display": "Rp45.650",
+        "id": "22"
+      },
+      {
+        "value": "46900",
+        "name": "Maluku",
+        "display": "Rp46.900",
+        "id": "31"
+      },
+      {
+        "value": "47100",
+        "name": "Bali",
+        "display": "Rp47.100",
+        "id": "17"
+      },
+      {
+        "value": "47400",
+        "name": "Sulawesi Selatan",
+        "display": "Rp47.400",
+        "id": "26"
+      },
+      {
+        "value": "47600",
+        "name": "Sulawesi Tengah",
+        "display": "Rp47.600",
+        "id": "28"
+      },
+      {
+        "value": "48450",
+        "name": "Gorontalo",
+        "display": "Rp48.450",
+        "id": "25"
+      },
+      {
+        "value": "51150",
+        "name": "Jambi",
+        "display": "Rp51.150",
+        "id": "6"
+      },
+      {
+        "value": "51550",
+        "name": "DKI Jakarta",
+        "display": "Rp51.550",
+        "id": "13"
+      },
+      {
+        "value": "52950",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp52.950",
+        "id": "19"
+      },
+      {
+        "value": null,
+        "name": "Aceh",
+        "display": "-",
+        "id": "1"
+      }
+    ],
+    "Beras": [
+      {
+        "value": "10200",
+        "name": "Sulawesi Barat",
+        "display": "Rp10.200",
+        "id": "30"
+      },
+      {
+        "value": "12050",
+        "name": "Jawa Timur",
+        "display": "Rp12.050",
+        "id": "16"
+      },
+      {
+        "value": "12400",
+        "name": "Jambi",
+        "display": "Rp12.400",
+        "id": "6"
+      },
+      {
+        "value": "12450",
+        "name": "Sulawesi Utara",
+        "display": "Rp12.450",
+        "id": "29"
+      },
+      {
+        "value": "12550",
+        "name": "Bali",
+        "display": "Rp12.550",
+        "id": "17"
+      },
+      {
+        "value": "12600",
+        "name": "Sumatera Selatan",
+        "display": "Rp12.600",
+        "id": "8"
+      },
+      {
+        "value": "12700",
+        "name": "Aceh",
+        "display": "Rp12.700",
+        "id": "1"
+      },
+      {
+        "value": "12750",
+        "name": "Sumatera Utara",
+        "display": "Rp12.750",
+        "id": "2"
+      },
+      {
+        "value": "12800",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp12.800",
+        "id": "9"
+      },
+      {
+        "value": "12900",
+        "name": "Jawa Barat",
+        "display": "Rp12.900",
+        "id": "12"
+      },
+      {
+        "value": "13050",
+        "name": "Bengkulu",
+        "display": "Rp13.050",
+        "id": "7"
+      },
+      {
+        "value": "13050",
+        "name": "Riau",
+        "display": "Rp13.050",
+        "id": "4"
+      },
+      {
+        "value": "13100",
+        "name": "DKI Jakarta",
+        "display": "Rp13.100",
+        "id": "13"
+      },
+      {
+        "value": "13100",
+        "name": "Kalimantan Barat",
+        "display": "Rp13.100",
+        "id": "20"
+      },
+      {
+        "value": "13100",
+        "name": "Kalimantan Timur",
+        "display": "Rp13.100",
+        "id": "23"
+      },
+      {
+        "value": "13100",
+        "name": "Sulawesi Tengah",
+        "display": "Rp13.100",
+        "id": "28"
+      },
+      {
+        "value": "13200",
+        "name": "Kalimantan Utara",
+        "display": "Rp13.200",
+        "id": "24"
+      },
+      {
+        "value": "13250",
+        "name": "Kalimantan Selatan",
+        "display": "Rp13.250",
+        "id": "21"
+      },
+      {
+        "value": "13350",
+        "name": "Maluku Utara",
+        "display": "Rp13.350",
+        "id": "32"
+      },
+      {
+        "value": "13350",
+        "name": "Papua Barat",
+        "display": "Rp13.350",
+        "id": "34"
+      },
+      {
+        "value": "13400",
+        "name": "Maluku",
+        "display": "Rp13.400",
+        "id": "31"
+      },
+      {
+        "value": "13700",
+        "name": "Kepulauan Riau",
+        "display": "Rp13.700",
+        "id": "5"
+      },
+      {
+        "value": "13700",
+        "name": "Papua",
+        "display": "Rp13.700",
+        "id": "33"
+      },
+      {
+        "value": "13750",
+        "name": "Jawa Tengah",
+        "display": "Rp13.750",
+        "id": "14"
+      },
+      {
+        "value": "13900",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp13.900",
+        "id": "19"
+      },
+      {
+        "value": "14100",
+        "name": "Kalimantan Tengah",
+        "display": "Rp14.100",
+        "id": "22"
+      },
+      {
+        "value": "14350",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp14.350",
+        "id": "18"
+      },
+      {
+        "value": "14450",
+        "name": "Sulawesi Selatan",
+        "display": "Rp14.450",
+        "id": "26"
+      },
+      {
+        "value": "14600",
+        "name": "Gorontalo",
+        "display": "Rp14.600",
+        "id": "25"
+      },
+      {
+        "value": "15000",
+        "name": "Banten",
+        "display": "Rp15.000",
+        "id": "11"
+      },
+      {
+        "value": "15600",
+        "name": "DI Yogyakarta",
+        "display": "Rp15.600",
+        "id": "15"
+      },
+      {
+        "value": "16600",
+        "name": "Sumatera Barat",
+        "display": "Rp16.600",
+        "id": "3"
+      },
+      {
+        "value": "18750",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp18.750",
+        "id": "27"
+      },
+      {
+        "value": "24900",
+        "name": "Lampung",
+        "display": "Rp24.900",
+        "id": "10"
+      }
+    ],
+    "Daging Sapi": [
+      {
+        "value": "130000",
+        "name": "Sulawesi Barat",
+        "display": "Rp130.000",
+        "id": "30"
+      },
+      {
+        "value": "132900",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp132.900",
+        "id": "19"
+      },
+      {
+        "value": "135950",
+        "name": "Kalimantan Barat",
+        "display": "Rp135.950",
+        "id": "20"
+      },
+      {
+        "value": "138650",
+        "name": "Kepulauan Riau",
+        "display": "Rp138.650",
+        "id": "5"
+      },
+      {
+        "value": "144350",
+        "name": "Sulawesi Utara",
+        "display": "Rp144.350",
+        "id": "29"
+      },
+      {
+        "value": "145350",
+        "name": "Bengkulu",
+        "display": "Rp145.350",
+        "id": "7"
+      },
+      {
+        "value": "149900",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp149.900",
+        "id": "27"
+      },
+      {
+        "value": "151700",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp151.700",
+        "id": "9"
+      },
+      {
+        "value": "153900",
+        "name": "Sumatera Barat",
+        "display": "Rp153.900",
+        "id": "3"
+      },
+      {
+        "value": "155000",
+        "name": "Maluku Utara",
+        "display": "Rp155.000",
+        "id": "32"
+      },
+      {
+        "value": "155000",
+        "name": "Sumatera Utara",
+        "display": "Rp155.000",
+        "id": "2"
+      },
+      {
+        "value": "157500",
+        "name": "Papua",
+        "display": "Rp157.500",
+        "id": "33"
+      },
+      {
+        "value": "157950",
+        "name": "Jambi",
+        "display": "Rp157.950",
+        "id": "6"
+      },
+      {
+        "value": "158600",
+        "name": "Sumatera Selatan",
+        "display": "Rp158.600",
+        "id": "8"
+      },
+      {
+        "value": "159400",
+        "name": "Kalimantan Tengah",
+        "display": "Rp159.400",
+        "id": "22"
+      },
+      {
+        "value": "165400",
+        "name": "Jawa Timur",
+        "display": "Rp165.400",
+        "id": "16"
+      },
+      {
+        "value": "167150",
+        "name": "Bali",
+        "display": "Rp167.150",
+        "id": "17"
+      },
+      {
+        "value": "167750",
+        "name": "Jawa Barat",
+        "display": "Rp167.750",
+        "id": "12"
+      },
+      {
+        "value": "167950",
+        "name": "Sulawesi Selatan",
+        "display": "Rp167.950",
+        "id": "26"
+      },
+      {
+        "value": "169000",
+        "name": "Gorontalo",
+        "display": "Rp169.000",
+        "id": "25"
+      },
+      {
+        "value": "171700",
+        "name": "Banten",
+        "display": "Rp171.700",
+        "id": "11"
+      },
+      {
+        "value": "172700",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp172.700",
+        "id": "18"
+      },
+      {
+        "value": "175000",
+        "name": "Papua Barat",
+        "display": "Rp175.000",
+        "id": "34"
+      },
+      {
+        "value": "177200",
+        "name": "Sulawesi Tengah",
+        "display": "Rp177.200",
+        "id": "28"
+      },
+      {
+        "value": "178050",
+        "name": "Kalimantan Timur",
+        "display": "Rp178.050",
+        "id": "23"
+      },
+      {
+        "value": "182900",
+        "name": "Riau",
+        "display": "Rp182.900",
+        "id": "4"
+      },
+      {
+        "value": "183900",
+        "name": "DI Yogyakarta",
+        "display": "Rp183.900",
+        "id": "15"
+      },
+      {
+        "value": "185850",
+        "name": "Jawa Tengah",
+        "display": "Rp185.850",
+        "id": "14"
+      },
+      {
+        "value": "185900",
+        "name": "Maluku",
+        "display": "Rp185.900",
+        "id": "31"
+      },
+      {
+        "value": "189400",
+        "name": "Lampung",
+        "display": "Rp189.400",
+        "id": "10"
+      },
+      {
+        "value": "212400",
+        "name": "Kalimantan Selatan",
+        "display": "Rp212.400",
+        "id": "21"
+      },
+      {
+        "value": "233150",
+        "name": "DKI Jakarta",
+        "display": "Rp233.150",
+        "id": "13"
+      },
+      {
+        "value": null,
+        "name": "Aceh",
+        "display": "-",
+        "id": "1"
+      },
+      {
+        "value": null,
+        "name": "Kalimantan Utara",
+        "display": "-",
+        "id": "24"
+      }
+    ],
+    "Telur Ayam": [
+      {
+        "value": "24800",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp24.800",
+        "id": "9"
+      },
+      {
+        "value": "24950",
+        "name": "Sumatera Selatan",
+        "display": "Rp24.950",
+        "id": "8"
+      },
+      {
+        "value": "25100",
+        "name": "Jambi",
+        "display": "Rp25.100",
+        "id": "6"
+      },
+      {
+        "value": "25350",
+        "name": "DI Yogyakarta",
+        "display": "Rp25.350",
+        "id": "15"
+      },
+      {
+        "value": "25550",
+        "name": "Jawa Timur",
+        "display": "Rp25.550",
+        "id": "16"
+      },
+      {
+        "value": "25650",
+        "name": "Jawa Tengah",
+        "display": "Rp25.650",
+        "id": "14"
+      },
+      {
+        "value": "25800",
+        "name": "DKI Jakarta",
+        "display": "Rp25.800",
+        "id": "13"
+      },
+      {
+        "value": "25800",
+        "name": "Jawa Barat",
+        "display": "Rp25.800",
+        "id": "12"
+      },
+      {
+        "value": "26500",
+        "name": "Sulawesi Barat",
+        "display": "Rp26.500",
+        "id": "30"
+      },
+      {
+        "value": "26600",
+        "name": "Aceh",
+        "display": "Rp26.600",
+        "id": "1"
+      },
+      {
+        "value": "27550",
+        "name": "Lampung",
+        "display": "Rp27.550",
+        "id": "10"
+      },
+      {
+        "value": "27800",
+        "name": "Banten",
+        "display": "Rp27.800",
+        "id": "11"
+      },
+      {
+        "value": "27950",
+        "name": "Riau",
+        "display": "Rp27.950",
+        "id": "4"
+      },
+      {
+        "value": "28750",
+        "name": "Kalimantan Selatan",
+        "display": "Rp28.750",
+        "id": "21"
+      },
+      {
+        "value": "29100",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp29.100",
+        "id": "18"
+      },
+      {
+        "value": "29900",
+        "name": "Sumatera Barat",
+        "display": "Rp29.900",
+        "id": "3"
+      },
+      {
+        "value": "30500",
+        "name": "Kalimantan Barat",
+        "display": "Rp30.500",
+        "id": "20"
+      },
+      {
+        "value": "30600",
+        "name": "Sulawesi Utara",
+        "display": "Rp30.600",
+        "id": "29"
+      },
+      {
+        "value": "30900",
+        "name": "Sulawesi Selatan",
+        "display": "Rp30.900",
+        "id": "26"
+      },
+      {
+        "value": "31250",
+        "name": "Kepulauan Riau",
+        "display": "Rp31.250",
+        "id": "5"
+      },
+      {
+        "value": "31850",
+        "name": "Sumatera Utara",
+        "display": "Rp31.850",
+        "id": "2"
+      },
+      {
+        "value": "32400",
+        "name": "Kalimantan Utara",
+        "display": "Rp32.400",
+        "id": "24"
+      },
+      {
+        "value": "32600",
+        "name": "Bengkulu",
+        "display": "Rp32.600",
+        "id": "7"
+      },
+      {
+        "value": "33600",
+        "name": "Maluku",
+        "display": "Rp33.600",
+        "id": "31"
+      },
+      {
+        "value": "33650",
+        "name": "Bali",
+        "display": "Rp33.650",
+        "id": "17"
+      },
+      {
+        "value": "34250",
+        "name": "Kalimantan Tengah",
+        "display": "Rp34.250",
+        "id": "22"
+      },
+      {
+        "value": "34350",
+        "name": "Kalimantan Timur",
+        "display": "Rp34.350",
+        "id": "23"
+      },
+      {
+        "value": "34500",
+        "name": "Papua",
+        "display": "Rp34.500",
+        "id": "33"
+      },
+      {
+        "value": "36700",
+        "name": "Papua Barat",
+        "display": "Rp36.700",
+        "id": "34"
+      },
+      {
+        "value": "37200",
+        "name": "Sulawesi Tengah",
+        "display": "Rp37.200",
+        "id": "28"
+      },
+      {
+        "value": "37300",
+        "name": "Gorontalo",
+        "display": "Rp37.300",
+        "id": "25"
+      },
+      {
+        "value": "38550",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp38.550",
+        "id": "27"
+      },
+      {
+        "value": "40200",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp40.200",
+        "id": "19"
+      },
+      {
+        "value": "45900",
+        "name": "Maluku Utara",
+        "display": "Rp45.900",
+        "id": "32"
+      }
+    ],
+    "Bawang Merah": [
+      {
+        "value": "30000",
+        "name": "Sulawesi Barat",
+        "display": "Rp30.000",
+        "id": "30"
+      },
+      {
+        "value": "33450",
+        "name": "Jambi",
+        "display": "Rp33.450",
+        "id": "6"
+      },
+      {
+        "value": "33900",
+        "name": "Sumatera Utara",
+        "display": "Rp33.900",
+        "id": "2"
+      },
+      {
+        "value": "35750",
+        "name": "Kalimantan Utara",
+        "display": "Rp35.750",
+        "id": "24"
+      },
+      {
+        "value": "40000",
+        "name": "Aceh",
+        "display": "Rp40.000",
+        "id": "1"
+      },
+      {
+        "value": "40050",
+        "name": "Kepulauan Riau",
+        "display": "Rp40.050",
+        "id": "5"
+      },
+      {
+        "value": "40050",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp40.050",
+        "id": "18"
+      },
+      {
+        "value": "42700",
+        "name": "Jawa Tengah",
+        "display": "Rp42.700",
+        "id": "14"
+      },
+      {
+        "value": "43400",
+        "name": "Lampung",
+        "display": "Rp43.400",
+        "id": "10"
+      },
+      {
+        "value": "43750",
+        "name": "Sulawesi Utara",
+        "display": "Rp43.750",
+        "id": "29"
+      },
+      {
+        "value": "44200",
+        "name": "Jawa Timur",
+        "display": "Rp44.200",
+        "id": "16"
+      },
+      {
+        "value": "46500",
+        "name": "Maluku",
+        "display": "Rp46.500",
+        "id": "31"
+      },
+      {
+        "value": "46500",
+        "name": "Sumatera Selatan",
+        "display": "Rp46.500",
+        "id": "8"
+      },
+      {
+        "value": "47200",
+        "name": "Sulawesi Selatan",
+        "display": "Rp47.200",
+        "id": "26"
+      },
+      {
+        "value": "50850",
+        "name": "Bali",
+        "display": "Rp50.850",
+        "id": "17"
+      },
+      {
+        "value": "52650",
+        "name": "Jawa Barat",
+        "display": "Rp52.650",
+        "id": "12"
+      },
+      {
+        "value": "53250",
+        "name": "Papua",
+        "display": "Rp53.250",
+        "id": "33"
+      },
+      {
+        "value": "54950",
+        "name": "Maluku Utara",
+        "display": "Rp54.950",
+        "id": "32"
+      },
+      {
+        "value": "56200",
+        "name": "DKI Jakarta",
+        "display": "Rp56.200",
+        "id": "13"
+      },
+      {
+        "value": "56350",
+        "name": "DI Yogyakarta",
+        "display": "Rp56.350",
+        "id": "15"
+      },
+      {
+        "value": "56900",
+        "name": "Kalimantan Barat",
+        "display": "Rp56.900",
+        "id": "20"
+      },
+      {
+        "value": "58950",
+        "name": "Kalimantan Tengah",
+        "display": "Rp58.950",
+        "id": "22"
+      },
+      {
+        "value": "59700",
+        "name": "Sumatera Barat",
+        "display": "Rp59.700",
+        "id": "3"
+      },
+      {
+        "value": "59750",
+        "name": "Papua Barat",
+        "display": "Rp59.750",
+        "id": "34"
+      },
+      {
+        "value": "60750",
+        "name": "Banten",
+        "display": "Rp60.750",
+        "id": "11"
+      },
+      {
+        "value": "60900",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp60.900",
+        "id": "19"
+      },
+      {
+        "value": "60950",
+        "name": "Riau",
+        "display": "Rp60.950",
+        "id": "4"
+      },
+      {
+        "value": "61050",
+        "name": "Gorontalo",
+        "display": "Rp61.050",
+        "id": "25"
+      },
+      {
+        "value": "61950",
+        "name": "Bengkulu",
+        "display": "Rp61.950",
+        "id": "7"
+      },
+      {
+        "value": "62400",
+        "name": "Kalimantan Selatan",
+        "display": "Rp62.400",
+        "id": "21"
+      },
+      {
+        "value": "68550",
+        "name": "Sulawesi Tengah",
+        "display": "Rp68.550",
+        "id": "28"
+      },
+      {
+        "value": "77950",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp77.950",
+        "id": "27"
+      },
+      {
+        "value": "79450",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp79.450",
+        "id": "9"
+      },
+      {
+        "value": "83450",
+        "name": "Kalimantan Timur",
+        "display": "Rp83.450",
+        "id": "23"
+      }
+    ],
+    "Bawang Putih": [
+      {
+        "value": "20300",
+        "name": "Kepulauan Riau",
+        "display": "Rp20.300",
+        "id": "5"
+      },
+      {
+        "value": "25950",
+        "name": "Jambi",
+        "display": "Rp25.950",
+        "id": "6"
+      },
+      {
+        "value": "26300",
+        "name": "Sumatera Selatan",
+        "display": "Rp26.300",
+        "id": "8"
+      },
+      {
+        "value": "26500",
+        "name": "Sulawesi Barat",
+        "display": "Rp26.500",
+        "id": "30"
+      },
+      {
+        "value": "28300",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp28.300",
+        "id": "18"
+      },
+      {
+        "value": "28900",
+        "name": "Aceh",
+        "display": "Rp28.900",
+        "id": "1"
+      },
+      {
+        "value": "29250",
+        "name": "Jawa Timur",
+        "display": "Rp29.250",
+        "id": "16"
+      },
+      {
+        "value": "29850",
+        "name": "Sumatera Utara",
+        "display": "Rp29.850",
+        "id": "2"
+      },
+      {
+        "value": "30250",
+        "name": "Sulawesi Utara",
+        "display": "Rp30.250",
+        "id": "29"
+      },
+      {
+        "value": "30300",
+        "name": "Lampung",
+        "display": "Rp30.300",
+        "id": "10"
+      },
+      {
+        "value": "30800",
+        "name": "Bali",
+        "display": "Rp30.800",
+        "id": "17"
+      },
+      {
+        "value": "30850",
+        "name": "Sulawesi Tengah",
+        "display": "Rp30.850",
+        "id": "28"
+      },
+      {
+        "value": "31200",
+        "name": "DKI Jakarta",
+        "display": "Rp31.200",
+        "id": "13"
+      },
+      {
+        "value": "31500",
+        "name": "Kalimantan Utara",
+        "display": "Rp31.500",
+        "id": "24"
+      },
+      {
+        "value": "33000",
+        "name": "Papua",
+        "display": "Rp33.000",
+        "id": "33"
+      },
+      {
+        "value": "33050",
+        "name": "Banten",
+        "display": "Rp33.050",
+        "id": "11"
+      },
+      {
+        "value": "33450",
+        "name": "Bengkulu",
+        "display": "Rp33.450",
+        "id": "7"
+      },
+      {
+        "value": "34300",
+        "name": "Jawa Barat",
+        "display": "Rp34.300",
+        "id": "12"
+      },
+      {
+        "value": "34700",
+        "name": "Jawa Tengah",
+        "display": "Rp34.700",
+        "id": "14"
+      },
+      {
+        "value": "34750",
+        "name": "Sulawesi Selatan",
+        "display": "Rp34.750",
+        "id": "26"
+      },
+      {
+        "value": "34900",
+        "name": "Kalimantan Barat",
+        "display": "Rp34.900",
+        "id": "20"
+      },
+      {
+        "value": "35500",
+        "name": "Maluku",
+        "display": "Rp35.500",
+        "id": "31"
+      },
+      {
+        "value": "35950",
+        "name": "Riau",
+        "display": "Rp35.950",
+        "id": "4"
+      },
+      {
+        "value": "36200",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp36.200",
+        "id": "9"
+      },
+      {
+        "value": "36850",
+        "name": "Sumatera Barat",
+        "display": "Rp36.850",
+        "id": "3"
+      },
+      {
+        "value": "38400",
+        "name": "Kalimantan Selatan",
+        "display": "Rp38.400",
+        "id": "21"
+      },
+      {
+        "value": "39250",
+        "name": "Kalimantan Tengah",
+        "display": "Rp39.250",
+        "id": "22"
+      },
+      {
+        "value": "39650",
+        "name": "Kalimantan Timur",
+        "display": "Rp39.650",
+        "id": "23"
+      },
+      {
+        "value": "41750",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp41.750",
+        "id": "19"
+      },
+      {
+        "value": "43900",
+        "name": "Papua Barat",
+        "display": "Rp43.900",
+        "id": "34"
+      },
+      {
+        "value": "47650",
+        "name": "Maluku Utara",
+        "display": "Rp47.650",
+        "id": "32"
+      },
+      {
+        "value": "49450",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp49.450",
+        "id": "27"
+      },
+      {
+        "value": "53750",
+        "name": "Gorontalo",
+        "display": "Rp53.750",
+        "id": "25"
+      },
+      {
+        "value": "66800",
+        "name": "DI Yogyakarta",
+        "display": "Rp66.800",
+        "id": "15"
+      }
+    ],
+    "Cabai Merah": [
+      {
+        "value": "31250",
+        "name": "Sulawesi Barat",
+        "display": "Rp31.250",
+        "id": "30"
+      },
+      {
+        "value": "41500",
+        "name": "Aceh",
+        "display": "Rp41.500",
+        "id": "1"
+      },
+      {
+        "value": "47150",
+        "name": "Sumatera Utara",
+        "display": "Rp47.150",
+        "id": "2"
+      },
+      {
+        "value": "50300",
+        "name": "Sulawesi Selatan",
+        "display": "Rp50.300",
+        "id": "26"
+      },
+      {
+        "value": "54500",
+        "name": "Gorontalo",
+        "display": "Rp54.500",
+        "id": "25"
+      },
+      {
+        "value": "56100",
+        "name": "Sulawesi Utara",
+        "display": "Rp56.100",
+        "id": "29"
+      },
+      {
+        "value": "64450",
+        "name": "Papua Barat",
+        "display": "Rp64.450",
+        "id": "34"
+      },
+      {
+        "value": "64900",
+        "name": "Maluku Utara",
+        "display": "Rp64.900",
+        "id": "32"
+      },
+      {
+        "value": "65000",
+        "name": "Jawa Tengah",
+        "display": "Rp65.000",
+        "id": "14"
+      },
+      {
+        "value": "66200",
+        "name": "Sulawesi Tengah",
+        "display": "Rp66.200",
+        "id": "28"
+      },
+      {
+        "value": "71350",
+        "name": "Jawa Timur",
+        "display": "Rp71.350",
+        "id": "16"
+      },
+      {
+        "value": "74450",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp74.450",
+        "id": "18"
+      },
+      {
+        "value": "78200",
+        "name": "Bali",
+        "display": "Rp78.200",
+        "id": "17"
+      },
+      {
+        "value": "81000",
+        "name": "Sumatera Barat",
+        "display": "Rp81.000",
+        "id": "3"
+      },
+      {
+        "value": "82000",
+        "name": "Kalimantan Utara",
+        "display": "Rp82.000",
+        "id": "24"
+      },
+      {
+        "value": "84350",
+        "name": "Riau",
+        "display": "Rp84.350",
+        "id": "4"
+      },
+      {
+        "value": "84650",
+        "name": "Jambi",
+        "display": "Rp84.650",
+        "id": "6"
+      },
+      {
+        "value": "84900",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp84.900",
+        "id": "27"
+      },
+      {
+        "value": "86450",
+        "name": "Sumatera Selatan",
+        "display": "Rp86.450",
+        "id": "8"
+      },
+      {
+        "value": "87450",
+        "name": "Jawa Barat",
+        "display": "Rp87.450",
+        "id": "12"
+      },
+      {
+        "value": "88200",
+        "name": "DI Yogyakarta",
+        "display": "Rp88.200",
+        "id": "15"
+      },
+      {
+        "value": "89350",
+        "name": "Lampung",
+        "display": "Rp89.350",
+        "id": "10"
+      },
+      {
+        "value": "89500",
+        "name": "Maluku",
+        "display": "Rp89.500",
+        "id": "31"
+      },
+      {
+        "value": "93950",
+        "name": "Bengkulu",
+        "display": "Rp93.950",
+        "id": "7"
+      },
+      {
+        "value": "95750",
+        "name": "Papua",
+        "display": "Rp95.750",
+        "id": "33"
+      },
+      {
+        "value": "95800",
+        "name": "Kepulauan Riau",
+        "display": "Rp95.800",
+        "id": "5"
+      },
+      {
+        "value": "99450",
+        "name": "Banten",
+        "display": "Rp99.450",
+        "id": "11"
+      },
+      {
+        "value": "100850",
+        "name": "Kalimantan Tengah",
+        "display": "Rp100.850",
+        "id": "22"
+      },
+      {
+        "value": "106050",
+        "name": "Kalimantan Selatan",
+        "display": "Rp106.050",
+        "id": "21"
+      },
+      {
+        "value": "108750",
+        "name": "Kalimantan Barat",
+        "display": "Rp108.750",
+        "id": "20"
+      },
+      {
+        "value": "109450",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp109.450",
+        "id": "9"
+      },
+      {
+        "value": "112900",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp112.900",
+        "id": "19"
+      },
+      {
+        "value": "120700",
+        "name": "DKI Jakarta",
+        "display": "Rp120.700",
+        "id": "13"
+      },
+      {
+        "value": "120700",
+        "name": "Kalimantan Timur",
+        "display": "Rp120.700",
+        "id": "23"
+      }
+    ],
+    "Cabai Rawit": [
+      {
+        "value": "47500",
+        "name": "Sulawesi Barat",
+        "display": "Rp47.500",
+        "id": "30"
+      },
+      {
+        "value": "48050",
+        "name": "Sumatera Utara",
+        "display": "Rp48.050",
+        "id": "2"
+      },
+      {
+        "value": "56400",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp56.400",
+        "id": "19"
+      },
+      {
+        "value": "56450",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp56.450",
+        "id": "18"
+      },
+      {
+        "value": "56450",
+        "name": "Sulawesi Utara",
+        "display": "Rp56.450",
+        "id": "29"
+      },
+      {
+        "value": "60000",
+        "name": "Aceh",
+        "display": "Rp60.000",
+        "id": "1"
+      },
+      {
+        "value": "60850",
+        "name": "Jambi",
+        "display": "Rp60.850",
+        "id": "6"
+      },
+      {
+        "value": "61300",
+        "name": "Jawa Tengah",
+        "display": "Rp61.300",
+        "id": "14"
+      },
+      {
+        "value": "61600",
+        "name": "Sulawesi Selatan",
+        "display": "Rp61.600",
+        "id": "26"
+      },
+      {
+        "value": "61750",
+        "name": "Jawa Timur",
+        "display": "Rp61.750",
+        "id": "16"
+      },
+      {
+        "value": "68000",
+        "name": "Gorontalo",
+        "display": "Rp68.000",
+        "id": "25"
+      },
+      {
+        "value": "69200",
+        "name": "DI Yogyakarta",
+        "display": "Rp69.200",
+        "id": "15"
+      },
+      {
+        "value": "69800",
+        "name": "Lampung",
+        "display": "Rp69.800",
+        "id": "10"
+      },
+      {
+        "value": "70650",
+        "name": "Sumatera Barat",
+        "display": "Rp70.650",
+        "id": "3"
+      },
+      {
+        "value": "71650",
+        "name": "Kepulauan Riau",
+        "display": "Rp71.650",
+        "id": "5"
+      },
+      {
+        "value": "72750",
+        "name": "Sumatera Selatan",
+        "display": "Rp72.750",
+        "id": "8"
+      },
+      {
+        "value": "76850",
+        "name": "Sulawesi Tengah",
+        "display": "Rp76.850",
+        "id": "28"
+      },
+      {
+        "value": "76900",
+        "name": "Papua Barat",
+        "display": "Rp76.900",
+        "id": "34"
+      },
+      {
+        "value": "77100",
+        "name": "Jawa Barat",
+        "display": "Rp77.100",
+        "id": "12"
+      },
+      {
+        "value": "78900",
+        "name": "Bali",
+        "display": "Rp78.900",
+        "id": "17"
+      },
+      {
+        "value": "82350",
+        "name": "Banten",
+        "display": "Rp82.350",
+        "id": "11"
+      },
+      {
+        "value": "86200",
+        "name": "Maluku",
+        "display": "Rp86.200",
+        "id": "31"
+      },
+      {
+        "value": "89700",
+        "name": "Riau",
+        "display": "Rp89.700",
+        "id": "4"
+      },
+      {
+        "value": "90950",
+        "name": "Kalimantan Barat",
+        "display": "Rp90.950",
+        "id": "20"
+      },
+      {
+        "value": "92000",
+        "name": "Papua",
+        "display": "Rp92.000",
+        "id": "33"
+      },
+      {
+        "value": "92050",
+        "name": "DKI Jakarta",
+        "display": "Rp92.050",
+        "id": "13"
+      },
+      {
+        "value": "93700",
+        "name": "Bengkulu",
+        "display": "Rp93.700",
+        "id": "7"
+      },
+      {
+        "value": "95400",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp95.400",
+        "id": "27"
+      },
+      {
+        "value": "100000",
+        "name": "Kalimantan Utara",
+        "display": "Rp100.000",
+        "id": "24"
+      },
+      {
+        "value": "105650",
+        "name": "Maluku Utara",
+        "display": "Rp105.650",
+        "id": "32"
+      },
+      {
+        "value": "106150",
+        "name": "Kalimantan Tengah",
+        "display": "Rp106.150",
+        "id": "22"
+      },
+      {
+        "value": "116600",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp116.600",
+        "id": "9"
+      },
+      {
+        "value": "122800",
+        "name": "Kalimantan Timur",
+        "display": "Rp122.800",
+        "id": "23"
+      },
+      {
+        "value": "149900",
+        "name": "Kalimantan Selatan",
+        "display": "Rp149.900",
+        "id": "21"
+      }
+    ],
+    "Minyak Goreng": [
+      {
+        "value": "18450",
+        "name": "Sulawesi Tengah",
+        "display": "Rp18.450",
+        "id": "28"
+      },
+      {
+        "value": "18900",
+        "name": "Jambi",
+        "display": "Rp18.900",
+        "id": "6"
+      },
+      {
+        "value": "19550",
+        "name": "Kalimantan Utara",
+        "display": "Rp19.550",
+        "id": "24"
+      },
+      {
+        "value": "20200",
+        "name": "Aceh",
+        "display": "Rp20.200",
+        "id": "1"
+      },
+      {
+        "value": "20700",
+        "name": "Jawa Timur",
+        "display": "Rp20.700",
+        "id": "16"
+      },
+      {
+        "value": "21050",
+        "name": "Jawa Tengah",
+        "display": "Rp21.050",
+        "id": "14"
+      },
+      {
+        "value": "21350",
+        "name": "Kalimantan Selatan",
+        "display": "Rp21.350",
+        "id": "21"
+      },
+      {
+        "value": "21400",
+        "name": "Sulawesi Utara",
+        "display": "Rp21.400",
+        "id": "29"
+      },
+      {
+        "value": "21450",
+        "name": "Kepulauan Riau",
+        "display": "Rp21.450",
+        "id": "5"
+      },
+      {
+        "value": "21650",
+        "name": "Sumatera Utara",
+        "display": "Rp21.650",
+        "id": "2"
+      },
+      {
+        "value": "21700",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp21.700",
+        "id": "18"
+      },
+      {
+        "value": "22300",
+        "name": "Kalimantan Timur",
+        "display": "Rp22.300",
+        "id": "23"
+      },
+      {
+        "value": "22350",
+        "name": "Jawa Barat",
+        "display": "Rp22.350",
+        "id": "12"
+      },
+      {
+        "value": "22500",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp22.500",
+        "id": "9"
+      },
+      {
+        "value": "22550",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp22.550",
+        "id": "19"
+      },
+      {
+        "value": "22550",
+        "name": "Sumatera Barat",
+        "display": "Rp22.550",
+        "id": "3"
+      },
+      {
+        "value": "22650",
+        "name": "DKI Jakarta",
+        "display": "Rp22.650",
+        "id": "13"
+      },
+      {
+        "value": "22950",
+        "name": "Riau",
+        "display": "Rp22.950",
+        "id": "4"
+      },
+      {
+        "value": "23100",
+        "name": "Kalimantan Barat",
+        "display": "Rp23.100",
+        "id": "20"
+      },
+      {
+        "value": "23150",
+        "name": "DI Yogyakarta",
+        "display": "Rp23.150",
+        "id": "15"
+      },
+      {
+        "value": "23250",
+        "name": "Gorontalo",
+        "display": "Rp23.250",
+        "id": "25"
+      },
+      {
+        "value": "23650",
+        "name": "Banten",
+        "display": "Rp23.650",
+        "id": "11"
+      },
+      {
+        "value": "23700",
+        "name": "Papua Barat",
+        "display": "Rp23.700",
+        "id": "34"
+      },
+      {
+        "value": "23750",
+        "name": "Sulawesi Barat",
+        "display": "Rp23.750",
+        "id": "30"
+      },
+      {
+        "value": "24200",
+        "name": "Maluku",
+        "display": "Rp24.200",
+        "id": "31"
+      },
+      {
+        "value": "24550",
+        "name": "Bali",
+        "display": "Rp24.550",
+        "id": "17"
+      },
+      {
+        "value": "25050",
+        "name": "Papua",
+        "display": "Rp25.050",
+        "id": "33"
+      },
+      {
+        "value": "25150",
+        "name": "Bengkulu",
+        "display": "Rp25.150",
+        "id": "7"
+      },
+      {
+        "value": "25250",
+        "name": "Kalimantan Tengah",
+        "display": "Rp25.250",
+        "id": "22"
+      },
+      {
+        "value": "25350",
+        "name": "Sulawesi Selatan",
+        "display": "Rp25.350",
+        "id": "26"
+      },
+      {
+        "value": "25450",
+        "name": "Sumatera Selatan",
+        "display": "Rp25.450",
+        "id": "8"
+      },
+      {
+        "value": "26150",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp26.150",
+        "id": "27"
+      },
+      {
+        "value": "26350",
+        "name": "Lampung",
+        "display": "Rp26.350",
+        "id": "10"
+      },
+      {
+        "value": "26700",
+        "name": "Maluku Utara",
+        "display": "Rp26.700",
+        "id": "32"
+      }
+    ],
+    "Gula Pasir": [
+      {
+        "value": "12500",
+        "name": "Maluku Utara",
+        "display": "Rp12.500",
+        "id": "32"
+      },
+      {
+        "value": "13050",
+        "name": "Kepulauan Riau",
+        "display": "Rp13.050",
+        "id": "5"
+      },
+      {
+        "value": "13200",
+        "name": "Banten",
+        "display": "Rp13.200",
+        "id": "11"
+      },
+      {
+        "value": "13200",
+        "name": "Kalimantan Barat",
+        "display": "Rp13.200",
+        "id": "20"
+      },
+      {
+        "value": "13250",
+        "name": "Jawa Timur",
+        "display": "Rp13.250",
+        "id": "16"
+      },
+      {
+        "value": "13250",
+        "name": "Lampung",
+        "display": "Rp13.250",
+        "id": "10"
+      },
+      {
+        "value": "13400",
+        "name": "DKI Jakarta",
+        "display": "Rp13.400",
+        "id": "13"
+      },
+      {
+        "value": "13500",
+        "name": "Kalimantan Selatan",
+        "display": "Rp13.500",
+        "id": "21"
+      },
+      {
+        "value": "13500",
+        "name": "Kepulauan Bangka Belitung",
+        "display": "Rp13.500",
+        "id": "9"
+      },
+      {
+        "value": "13550",
+        "name": "DI Yogyakarta",
+        "display": "Rp13.550",
+        "id": "15"
+      },
+      {
+        "value": "13550",
+        "name": "Jawa Barat",
+        "display": "Rp13.550",
+        "id": "12"
+      },
+      {
+        "value": "13550",
+        "name": "Sumatera Selatan",
+        "display": "Rp13.550",
+        "id": "8"
+      },
+      {
+        "value": "13750",
+        "name": "Jawa Tengah",
+        "display": "Rp13.750",
+        "id": "14"
+      },
+      {
+        "value": "13800",
+        "name": "Sulawesi Utara",
+        "display": "Rp13.800",
+        "id": "29"
+      },
+      {
+        "value": "13800",
+        "name": "Sumatera Utara",
+        "display": "Rp13.800",
+        "id": "2"
+      },
+      {
+        "value": "13900",
+        "name": "Bali",
+        "display": "Rp13.900",
+        "id": "17"
+      },
+      {
+        "value": "13900",
+        "name": "Sulawesi Tengah",
+        "display": "Rp13.900",
+        "id": "28"
+      },
+      {
+        "value": "13950",
+        "name": "Sumatera Barat",
+        "display": "Rp13.950",
+        "id": "3"
+      },
+      {
+        "value": "14000",
+        "name": "Maluku",
+        "display": "Rp14.000",
+        "id": "31"
+      },
+      {
+        "value": "14200",
+        "name": "Jambi",
+        "display": "Rp14.200",
+        "id": "6"
+      },
+      {
+        "value": "14200",
+        "name": "Kalimantan Tengah",
+        "display": "Rp14.200",
+        "id": "22"
+      },
+      {
+        "value": "14250",
+        "name": "Nusa Tenggara Timur",
+        "display": "Rp14.250",
+        "id": "19"
+      },
+      {
+        "value": "14250",
+        "name": "Sulawesi Selatan",
+        "display": "Rp14.250",
+        "id": "26"
+      },
+      {
+        "value": "14500",
+        "name": "Kalimantan Timur",
+        "display": "Rp14.500",
+        "id": "23"
+      },
+      {
+        "value": "14650",
+        "name": "Bengkulu",
+        "display": "Rp14.650",
+        "id": "7"
+      },
+      {
+        "value": "14750",
+        "name": "Nusa Tenggara Barat",
+        "display": "Rp14.750",
+        "id": "18"
+      },
+      {
+        "value": "14800",
+        "name": "Kalimantan Utara",
+        "display": "Rp14.800",
+        "id": "24"
+      },
+      {
+        "value": "14850",
+        "name": "Aceh",
+        "display": "Rp14.850",
+        "id": "1"
+      },
+      {
+        "value": "15050",
+        "name": "Sulawesi Tenggara",
+        "display": "Rp15.050",
+        "id": "27"
+      },
+      {
+        "value": "15850",
+        "name": "Sulawesi Barat",
+        "display": "Rp15.850",
+        "id": "30"
+      },
+      {
+        "value": "16250",
+        "name": "Riau",
+        "display": "Rp16.250",
+        "id": "4"
+      },
+      {
+        "value": "16700",
+        "name": "Papua Barat",
+        "display": "Rp16.700",
+        "id": "34"
+      },
+      {
+        "value": "16800",
+        "name": "Papua",
+        "display": "Rp16.800",
+        "id": "33"
+      },
+      {
+        "value": "17000",
+        "name": "Gorontalo",
+        "display": "Rp17.000",
+        "id": "25"
+      }
+    ]
+  },
+  "updated_at": "26-10-2022"
+}

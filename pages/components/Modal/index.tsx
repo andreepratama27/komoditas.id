@@ -1,10 +1,40 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { getAllProvince } from '../../models/comodity'
 
 interface ModalProps {
   onCancel: () => void;
+  onChange: (province: string) => void;
 }
 
-const Modal = ({ onCancel }: ModalProps) => {
+const Modal = ({ onCancel, onChange }: ModalProps) => {
+  const [province, setProvince] = useState<string[]>([]);
+  const [selectedProvince, setSelectedProvince] = useState<string>('')
+
+  const fetchProvince = async () => {
+    try {
+      const provinceLS = !!localStorage.getItem('provinces') ? JSON.parse(localStorage.getItem('provinces')) : null
+
+      const response = provinceLS ?? await getAllProvince();
+      setProvince(response)
+
+    } catch (err) {
+      console.error(err)
+    }
+  }
+
+  const onProvinceChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const { value } = event.target
+    setSelectedProvince(value)
+  }
+
+  const onApply = () => {
+    onCancel(selectedProvince)
+  }
+
+  useEffect(() => {
+    fetchProvince()
+  }, [])
+
   return (
     <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
       <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
@@ -23,12 +53,22 @@ const Modal = ({ onCancel }: ModalProps) => {
                   <h3 className="text-lg font-medium leading-6 text-gray-900" id="modal-title">Ganti Provinsi</h3>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">Pilih Provinsi</p>
+
+                    <select onChange={onProvinceChange}>
+                      {
+                        province.map((item, key) => (
+                          <option value={item} key={key}>
+                            {item}
+                          </option>
+                        ))
+                      }
+                    </select>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-              <button type="button" className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm">Apply</button>
+              <button type="button" className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm" onClick={onApply}>Apply</button>
               <button type="button" className="mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm" onClick={onCancel}>Cancel</button>
             </div>
           </div>
