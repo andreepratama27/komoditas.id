@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
+import data from '../data/comodity.json'
 
 interface Comodity {
   value: string;
@@ -13,8 +14,9 @@ interface APIResponse {
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<string[]>) => {
   try {
-    const response = await fetch('https://jibs.my.id/api/harga_komoditas')
-    const result = await response.json()
+    //const response = await fetch('https://jibs.my.id/api/harga_komoditas')
+    //const result = await response.json()
+    const result = data;
 
     return res
       .status(200)

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getAllProvince } from '../../models/comodity'
+import { getAllProvince, getProvince } from '../../models/comodity'
 
 interface ModalProps {
   onCancel: () => void;
@@ -12,10 +12,8 @@ const Modal = ({ onCancel, onChange }: ModalProps) => {
 
   const fetchProvince = async () => {
     try {
-      const provinceLS = !!localStorage.getItem('provinces') ? JSON.parse(localStorage.getItem('provinces')) : null
-
-      const response = provinceLS ?? await getAllProvince();
-      setProvince(response)
+      const response = await getProvince();
+      setProvince(response.province)
 
     } catch (err) {
       console.error(err)
@@ -28,7 +26,8 @@ const Modal = ({ onCancel, onChange }: ModalProps) => {
   }
 
   const onApply = () => {
-    onCancel(selectedProvince)
+    onChange(selectedProvince)
+    onCancel()
   }
 
   useEffect(() => {
@@ -56,7 +55,7 @@ const Modal = ({ onCancel, onChange }: ModalProps) => {
 
                     <select onChange={onProvinceChange}>
                       {
-                        province.map((item, key) => (
+                        province?.map((item, key) => (
                           <option value={item} key={key}>
                             {item}
                           </option>

@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Modal from '../Modal'
 
 const Navbar = () => {
-  const [show, setShow] = React.useState(false)
+  const [show, setShow] = useState<boolean>(false)
+  const [province, setProvince] = useState<string>('')
 
   const toggle = () => setShow(!show)
 
-  const changeProvince = (province: string) => {
-    console.log('fff', province)
+  const changeProvince = (provinces: string) => {
+    setProvince(provinces);
   }
 
   const renderModal = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
 
           <div className="location-wrapper flex items-center">
             <div className="location pr-4">
-              <p className="text-yellow-700 text-sm font-light">Kepulauan Riau</p>
+              <p className="text-yellow-700 text-sm font-light">{province}</p>
             </div>
             <p className="text-white font-light font-light bg-gray-600 p-2
               hover:bg-gray-700 hover:cursor-pointer text-sm rounded

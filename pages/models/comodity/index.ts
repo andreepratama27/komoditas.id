@@ -1,14 +1,13 @@
 const API_URL = 'https://jibs.my.id/api/harga_komoditas'
 
-export const getData = async () => {
-  const response = await fetch(API_URL);
-  const result = await response.json()
+export const getProvince = () => {
+  const response = require('../../data/province.json')
 
-  return Object.keys(result.national_commodity_price) ?? {}
+  return response
 }
 
-export const getAllProvince = async (): string[] => {
-  const response = await fetch(API_URL).then(response => response.json())
+export const getAllProvince = async (): Promise<string[]> => {
+  const response: APIResponse = await fetch(API_URL).then(response => response.json())
 
   const result =
     Object.entries(response?.national_commodity_price)
@@ -22,16 +21,14 @@ export const getAllProvince = async (): string[] => {
 
   const provinces = [...new Set<string[]>(result)]
 
-  localStorage.setItem('provinces', JSON.stringify(provinces))
-
   return provinces
 }
 
 export const getAll = async () => {
-  const response = require('../../data/comodity.json')
+  const response: APIResponse = require('../../data/comodity.json')
   //const response = await fetch(API_URL).then(response => response.json())
 
-  const province = "Kepulauan Riau"
+  const province = "Sumatera Utara";
 
   const data = Object.entries(response?.national_commodity_price)
     .map(item => {
@@ -43,6 +40,6 @@ export const getAll = async () => {
       }
     })
 
-  return JSON.stringify(data)
+  return data
 }
 

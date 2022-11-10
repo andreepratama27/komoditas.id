@@ -1,10 +1,10 @@
-import React from 'react'
+import { NextPage, GetServerSideProps } from 'next'
 import { getAll } from './models/comodity'
 import Jumbotron from './components/Jumbotron'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 
-export async function getServerSideProps() {
+export const getServerSideProps: GetServerSideProps = async () => {
   const response = await getAll();
 
   return {
@@ -14,9 +14,11 @@ export async function getServerSideProps() {
   }
 }
 
-export default function Home({ data }) {
-  const result = JSON.parse(data)
+interface Props {
+  data: any;
+}
 
+const Home: NextPage<Props> = ({ data }) => {
   return (
     <div className="w-full min-h-screen">
       <Navbar />
@@ -33,7 +35,7 @@ export default function Home({ data }) {
 
           <div className="grid grid-cols-3 gap-8 mt-8">
             {
-              result?.map((item, key) => (
+              data?.map((item, key: number) => (
                 <Card {...item} key={key} />
               ))
             }
@@ -46,3 +48,5 @@ export default function Home({ data }) {
     </div>
   )
 }
+
+export default Home
