@@ -1,24 +1,27 @@
-import { NextPage, GetServerSideProps } from 'next'
-import { getAll } from '../src/models/comodity'
+import { useState, useEffect } from 'react'
+import { NextPage } from 'next'
 import Jumbotron from '../src/components/Jumbotron'
 import Navbar from '../src/components/Navbar'
 import Card from '../src/components/Card'
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const response = await getAll();
+const Home: NextPage = () => {
+  const [comodities, setComodities] = useState([]);
 
-  return {
-    props: {
-      data: response ?? []
+  useEffect(() => {
+    const fetchComodities = async () => {
+      try {
+        const result = await fetch('/comodities/Sumatera%20Utara')
+        const response = await result.json()
+
+        setComodities(response)
+      } catch (err) {
+        console.error(err)
+      }
     }
-  }
-}
 
-interface Props {
-  data: any;
-}
+    fetchComodities()
+  }, [])
 
-const Home: NextPage<Props> = ({ data }) => {
   return (
     <div className="w-full min-h-screen">
       <Navbar />
@@ -33,9 +36,9 @@ const Home: NextPage<Props> = ({ data }) => {
 
           <input className="w-full bg-white py-2 px-4 mt-4 rounded shadow-md" placeholder="Cari disini..." />
 
-          <div className="grid grid-cols-3 gap-8 mt-8">
+          <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-8 mt-8">
             {
-              data?.map((item, key: number) => (
+              comodities?.map((item, key: number) => (
                 <Card {...item} key={key} />
               ))
             }
@@ -43,8 +46,6 @@ const Home: NextPage<Props> = ({ data }) => {
 
         </section>
       </div>
-
-
     </div>
   )
 }
