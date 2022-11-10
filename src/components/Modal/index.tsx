@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { getAllProvince, getProvince } from '../../models/comodity'
 
 interface ModalProps {
   onCancel: () => void;
@@ -12,9 +11,10 @@ const Modal = ({ onCancel, onChange }: ModalProps) => {
 
   const fetchProvince = async () => {
     try {
-      const response = await getProvince();
-      setProvince(response.province)
-
+      const result = await fetch('/provinces') 
+      const response = await result.json()
+      
+      setProvince(response)
     } catch (err) {
       console.error(err)
     }
