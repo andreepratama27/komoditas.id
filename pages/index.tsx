@@ -1,8 +1,8 @@
 import { NextPage, GetServerSideProps } from 'next'
-import { getAll } from './models/comodity'
-import Jumbotron from './components/Jumbotron'
-import Navbar from './components/Navbar'
-import Card from './components/Card'
+import { getAll } from '../src/models/comodity'
+import Jumbotron from '../src/components/Jumbotron'
+import Navbar from '../src/components/Navbar'
+import Card from '../src/components/Card'
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const response = await getAll();
